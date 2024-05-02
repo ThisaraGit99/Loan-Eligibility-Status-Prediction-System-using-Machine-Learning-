@@ -1,0 +1,109 @@
+/* Body Styles */
+.login-body{
+  background: url('./background.jpg'); /* Set the background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+/* Container Styles */
+.container01 {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+/* Login Form Styles */
+.login-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(5, 48, 151, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0a11d6;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px; /* Increased padding for better visibility */
+  border: 1px solid #4d5153;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 14px; /* Increased padding for better visibility */
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+.success-message,
+.error-message {
+  margin-top: 20px;
+  padding: 12px; /* Increased padding for better visibility */
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Link Styles */
+.form-group a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.form-group a:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  width: 100%; /* Full width to contain labels and inputs neatly */
+  margin-bottom: 20px; /* Spacing between each form group */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers the contents horizontally */
+}

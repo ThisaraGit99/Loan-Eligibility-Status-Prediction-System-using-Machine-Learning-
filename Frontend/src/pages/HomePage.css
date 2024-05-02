@@ -1,0 +1,94 @@
+/* Updated CSS for Home Page */
+.home-page {
+  display: flex;
+  height: 100vh; /* Full height of viewport */
+}
+
+.navigation-bar {
+  width: 250px;
+  background-color: #007bff; /* Team color blue */
+  padding: 20px;
+}
+
+/* Style the navigation list (ul) to remove bullet points */
+.navigation-bar ul {
+  list-style: none; /* Remove default list style (bullet points) */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-item {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link1 {
+  display: block;
+  padding: 15px;
+  color: #a40808;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  
+}
+
+.nav-link1:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  
+}
+
+.main-content {
+  flex: 1; /* Take remaining width */
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 3rem; /* Larger heading */
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.4rem; /* Larger paragraph text */
+  color: #333; /* Dark text color */
+  margin-bottom: 30px;
+}
+
+.main-content img.homepage-image {
+  width: 100%; /* Set image width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 550px; /* Set maximum width for responsiveness */
+  display: block; /* Ensure image is displayed as a block element */
+  margin-bottom: 20px; /* Add margin for spacing */
+  margin: 0 auto 20px; /* Center the image horizontally with top and bottom margin */
+}
+
+.main-content button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-content button:hover {
+  background-color: #0056b3;
+}
+
+.main-content h1 {
+  color: #3408c7;
+}

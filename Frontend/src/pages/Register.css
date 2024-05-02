@@ -1,0 +1,130 @@
+/* Register Page Styles */
+.register-body{
+  background: url('./background.jpg'); /* Set the background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+/* Center the form vertically and horizontally */
+.container02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the form is centered vertically */
+
+}
+
+/* Style for the form container */
+.reg-content {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2109d5;
+}
+
+/* Style for form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label style */
+.label {
+  font-weight: bold;
+}
+
+/* Input field style */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button style */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Alert message style */
+.alert {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Success alert style */
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+/* Error alert style */
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Link style */
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Link anchor style */
+.link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Link anchor hover effect */
+.link a:hover {
+  text-decoration: underline;
+}
+
+
+.navbar-reg {
+  background-color: darkblue;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.navbar-brand-reg {
+  margin-right: auto; /* Pushes the "Home" button to the left */
+}
+
+.navbar-brand-reg a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-brand-reg a:hover {
+  color: rgb(225, 10, 10);
+}
+

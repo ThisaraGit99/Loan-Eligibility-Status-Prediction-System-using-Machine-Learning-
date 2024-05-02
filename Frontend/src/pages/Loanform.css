@@ -1,0 +1,169 @@
+/* General Styles */
+
+/* Section Container */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Groups */
+.form-groups {
+  margin-bottom: 20px;
+}
+
+/* Label Styles */
+label {
+  font-weight: bold;
+}
+
+/* Input and Select Styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button Styles */
+.btn-form {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.reset-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Alert Styles */
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Success and Error Message Styles */
+.success-message,
+.error-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 5px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #176fc7; /* Dark background color */
+  padding: 2px 10px;
+}
+
+.navbar-brand {
+  color: #d10d0d; /* White color for brand text */
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the navigation list (ul) to remove bullet points */
+.navbar ul {
+  list-style: none; /* Remove default list style (bullet points) */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-link {
+  color: #ffffff; /* White color for nav links */
+  margin-right: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffffff; /* White color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  list-style-type: none; /* Remove bullets */
+}
+
+.btn-home:hover {
+  background-color: #06376b; /* Darker blue on hover */
+}
+
+.btn-logout {
+  background-color: #dc3545; /* Red color for Logout button */
+  color: #ffffff;
+  margin-right: auto;
+}
+
+.btn-logout:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+
+.navbar-nav-form {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-logout {
+  margin-left: auto; /* Pushes the logout button to the right */
+  list-style-type: none; /* Remove bullet points */
+}
+
+.btn-logout-form {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-logout-form:hover {
+  background-color: darkred; /* Change color on hover */
+}
