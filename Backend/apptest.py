@@ -21,51 +21,7 @@ class TestApp(unittest.TestCase):
         elif 'error' in data:
             self.fail(f"Registration failed: {data['error']}")
 
-        # # Test registration with existing email
-        # existing_data = {'name': 'test02', 'email': 'test01@mail.com', 'password': 'test02'}
-        # response = self.app.post('/register', json=existing_data)
-        # self.assertEqual(response.status_code, 200)
-       
-        # data = json.loads(response.data.decode())
-        # if 'error' in data:
-        #     self.assertEqual(data['error'], 'Email is already registered')
-        # else:
-        #     self.fail("Expected registration to fail with existing email")
-
-
-    # def test_already_registration(self):
-    #     # Attempt to register with an email that's already been used
-    #     data = {'name': 'test09', 'email': 'test09@mail.com', 'password': 'test09',}
-
-    #     # Send another POST request to the registration endpoint with the same email
-    #     response = self.app.post('/register', json=data)
-
-    #     # Check if the response status code is 409 (conflict)
-    #     self.assertEqual(response.status_code, 409)
-
-    #     # Parse the response JSON and check for the error message
-    #     data = json.loads(response.data)
-    #     self.assertEqual(data['error'], 'Email already registered')
     
-    def test_already_registration(self):
-        # Attempt to register with an email that's already been used
-        data = {'name': 'test09', 'email': 'test09@mail.com', 'password': 'test09'}
-
-        # First, register a user with the provided email
-        self.app.post('/register', json=data)
-
-        # Attempt to register again with the same email
-        response = self.app.post('/register', json=data)
-
-        # Check if the response status code is 409 (conflict)
-        self.assertEqual(response.status_code, 409)
-
-        # Parse the response JSON and check for the error message
-        data = json.loads(response.data.decode())
-        self.assertEqual(data['error'], 'Email already registered')
-
-
-
 
     def test_user_login(self):
         # Test login with valid credentials
